@@ -59,35 +59,38 @@ body {
 }
 
 .servicesbox {
-  max-width: 960px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
   color: #666D89;
   padding: 40px 60px;
+  overflow: hidden;
 }
 
-.servtitle {
+.bannertitle {
   font-size: 1.6rem;
 }
 
-.servdescription {
+.bannerdescription {
   font-weight: 100;
   padding-top: 35px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .column {
   float: left;
 }
 
-
 .text {
-  display: inline-block;
+  float: left;
 }
 
 .servicedetail {
-  float: left;
   padding-bottom: 35px;
+}
+.servicedetail img {
+  float: left;
+  padding-right: 20px;
 }
 
 .text h1 {
@@ -100,6 +103,67 @@ body {
   font-weight: 100;
   font-size: .9rem;
 }
+
+.portfoliobg {
+  background-color: #2D303A;
+}
+
+.portfolio {
+  max-width: 960px;
+  color: #666D89;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 60px;
+}
+.portfolio a {
+  color: #666D89;
+  text-decoration: none;
+  float: left;
+  padding: 2px 5px;
+  margin-right: 12px;
+  border: 1px solid #666D89;
+  border-radius: 5px;
+}
+
+.portlinks {
+  padding-bottom: 20px;
+}
+
+.images img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.aboutus {
+  overflow: hidden;
+  max-width: 960px;
+  color: #666D89;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 60px;
+}
+
+.employee {
+  padding-right: 20px;
+  float:left;
+  max-width: 300px;
+}
+
+.employee img {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.employeename {
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+
+.employeedescription {
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
 
 
 
@@ -118,4 +182,14 @@ body {
     text-align: center;
     margin-top: 16px;
   }
+
+  .servtitle {
+    text-align: center;
+  }
+
+  .text h1 {
+    text-align: center;
+
+  }
+
 }
