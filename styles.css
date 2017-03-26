@@ -164,6 +164,61 @@ body {
   padding-bottom: 20px;
 }
 
+.quotebanner {
+  background-color: #F06C64;
+}
+
+.quotecontent{
+  overflow: hidden;
+  max-width: 960px;
+  color: #F0D8D9;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 60px;
+}
+
+.inputs {
+  float: left;
+  max-width: 680px;
+}
+
+.inputs input{
+  background-color: #D65654;
+  width: 620px;
+  border-radius: 7px;
+  padding: 15px;
+  color: #F0D8D9;
+  border: none;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.inputs textarea {
+  background-color: #D65654;
+  width: 620px;
+  border-radius: 7px;
+  padding: 15px;
+  color: #F0D8D9;
+  border: none;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.contactInformation {
+  float: left;
+  max-width: 280px;
+}
+
+.contacttitle {
+  font-size: 1.2rem;
+}
+
+.contactdescription {
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 
 
 
